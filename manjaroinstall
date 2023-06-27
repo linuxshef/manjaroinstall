@@ -1,15 +1,14 @@
 #!/bin/bash
-#
-#  Manjaro Linux Install (Manjaro Install) v.3.0.1
-#------------------------------------------|
+#────────────────────────────────
+#  Version  : Manjaro Linux Install v.3.0.1
 #           :
-# Author    : LinuxShef
+#  Author   : LinuxShef
 #           :
-# Project   : https://github.com/shefpower/manjaroinstall.git
+#  Project  : https://github.com/shefpower/manjaroinstall.git
 #           :
-# License   : LGPL-3.0 (http://opensource.org/licenses/lgpl-3.0.html)
+#  License  : LGPL-3.0 (http://opensource.org/licenses/lgpl-3.0.html)
 #           :
-#----------------------------------------------------------------------|
+#────────────────────────────────
 clear
 echo '
 
