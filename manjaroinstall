@@ -546,6 +546,11 @@ read main_menu
            ;;
          "2" ) clear ;
       esac
+clear
+source config/logo/logo29
+read -p "
+                                                                    -> Введите значение : " programs
+
 #----------------------------------------------------------------------|
 #                                                      #
 #                         Pacman                       #
@@ -609,6 +614,7 @@ arch-chroot /mnt /bin/bash -c "${hwddriver}"
 ${graphc_drivers}
 ${update}
 ${desktop}
+${programs}
 arch-chroot /mnt /bin/bash -c "${displaymanager}"
 arch-chroot /mnt /bin/bash -c "grub-mkconfig -o /boot/grub/grub.cfg"
 arch-chroot /mnt /bin/bash -c "systemctl enable NetworkManager"
