@@ -13,6 +13,6 @@
 #
 update='pacman -Syy'
 
-desktop='basestrap -i /mnt xorg xorg-server gnome cups nautilus firefox gnome-terminal firefox gdm --noconfirm'
+desktop='basestrap -i /mnt xorg xorg-server gnome cups nautilus firefox gnome-terminal firefox gdm libpamac libpamac-flatpak-plugin libpamac-snap-plugin pamac-cli pamac-gtk webapp-manager-manjaro --noconfirm'
 
 displaymanager='systemctl enable gdm --force'

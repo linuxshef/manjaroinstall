@@ -12,6 +12,6 @@
 
 update='pacman -Syy'
 
-desktop='basestrap -i /mnt mate mate-extra dconf-editor lightdm lightdm-slick-greeter lightdm-settings --noconfirm'
+desktop='basestrap -i /mnt mate mate-extra dconf-editor lightdm lightdm-slick-greeter lightdm-settings libpamac libpamac-flatpak-plugin libpamac-snap-plugin pamac-cli pamac-gtk webapp-manager-manjaro --noconfirm'
 
 displaymanager='systemctl enable lightdm --force'
