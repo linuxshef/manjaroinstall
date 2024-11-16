@@ -10,4 +10,4 @@
 
 
 
-base='basestrap -i /mnt base base-devel manjaro-settings-manager linux69 linux69-acpi_call linux69-headers linux-firmware dosfstools btrfs-progs intel-ucode amd-ucode iucode-tool archlinux-keyring manjaro-keyring manjaro-tools-base networkmanager dhcpcd dhclient vim nano bluez bluez-utils mhwd mhwd-db --noconfirm'
+base='basestrap -i /mnt base base-devel manjaro-settings-manager linux611 linux611-acpi_call linux611-headers linux-firmware dosfstools btrfs-progs intel-ucode amd-ucode iucode-tool archlinux-keyring manjaro-keyring manjaro-tools-base networkmanager dhcpcd dhclient vim nano bluez bluez-utils mhwd mhwd-db --noconfirm'
